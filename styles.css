@@ -1,0 +1,86 @@
+html{
+    background: linear-gradient(to right, rgba(244, 255, 122, 0.72), rgba(129, 255, 122, 0.72));
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
+.first-div h1{
+    margin-top: 0px ;
+    font-size: 5em;
+    color: white;
+}
+.first-div button{
+    background-color: rgb(15, 230, 69);
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    width: 3.50em;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0.30em;
+    font-size: 1.85em;
+    transition: background-color 0.3s, border-color 0.5s;
+}
+.first-div button:hover{
+    background-color: rgb(32, 87, 238);
+    color: white;
+    cursor: pointer;
+    border-color: transparent;
+}
+.first-div p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 5em;
+}
+.second-div{
+    display: none;
+}
+.second-div button{
+    background-color: inherit;
+    border: 1px solid;
+    border-radius: 0.3em;
+
+}
+@media (max-width:380px) {
+    .first-div h1{
+        margin-top: 0px;
+        font-size: 6em;
+    }s
+    .first-div button{
+        width: 4.60em;
+        font-size: 1.50em;
+    }
+    .first-div p{
+        font-size: 6em;
+    }
+}
+@media (min-width:381px) and (max-width:599px) {
+    .first-div h1{
+        margin-top: 0%;
+        font-size: 6.50em;
+    }
+    .first-div button{
+        font-size: 1.88em;
+        width: 5em;
+    }
+    .first-div p{
+        margin-top: 10px;
+        font-size: 6.50em;
+    }
+}
+@media (min-width: 599px) {
+    .first-div h1{
+        margin-top: 0%;
+        font-size: 7.50em;
+    }
+    .first-div button{
+        width: 7em;
+        font-size: 2.88em;
+    }
+    .first-div p{
+        margin-bottom: 50px;
+        margin-top: 10px;
+        font-size: 7.50em;
+    }
+}
